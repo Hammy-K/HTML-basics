@@ -84,7 +84,7 @@
     <h1>أضرب القنفذ!</h1>
 
     <div id="score">النقاط: 0</div>
-    <div id="timeLeft">الوقت المتبقي: 30</div>
+    <div id="timeLeft">الوقت المتبقي: 45</div>
 
     <div class="game-container">
       <div class="hole" id="hole1"><div class="mole" id="mole1"></div></div>
@@ -102,14 +102,14 @@
 
     <script>
       let score = 0;
-      let timeLeft = 30;
+      let timeLeft = 45;
       let timer;
       let gameActive = false;
 
       // Function to start the game
       function startGame() {
         score = 0;
-        timeLeft = 30;
+        timeLeft = 45;
         gameActive = true;
         document.getElementById('score').textContent = "النقاط: " + score;
         document.getElementById('timeLeft').textContent = "الوقت المتبقي: " + timeLeft;
